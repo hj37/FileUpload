@@ -85,6 +85,8 @@
 				%>
 				
 					<li>
+					
+						<%--파일 다운로드를 처리하는 download.jsp페이지로 다운로드할 가상주소 & 실제 다운로드할 파일이름을 전달함. --%>
 						<a href="download.jsp?path=upload&name=<%=saveFiles.get(i)%>">
 							<%=originFiles.get(i) %>
 						</a>
